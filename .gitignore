@@ -1,0 +1,24 @@
+# Terraform files
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+tfplan
+.terraform.lock.hcl
+
+# Private keys
+*.pem
+*.pkey
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Local files
+web-server-key.pem
